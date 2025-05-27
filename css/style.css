@@ -1,0 +1,49 @@
+/* Primary Color: #FD6E0A
+Secondary Color: #474747
+*/
+
+.bodys {
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main_header {
+  width: 100%;
+  /* height: 70px; */
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.header_container {
+  width: 1140px;
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main_nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#main_nav ul li {
+  list-style: none;
+}
+#main_nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #474747;
+}
+.hire_me {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #fd6e0a;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  font-weight: 500;
+}
